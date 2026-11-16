@@ -1,0 +1,7 @@
+@"
+numpy
+pandas
+matplotlib
+requests
+yfinance
+"@ | Set-Content requirements.txt

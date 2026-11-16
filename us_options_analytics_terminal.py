@@ -51,8 +51,8 @@ from matplotlib.animation import FuncAnimation
 
 # ----------------------------- CONFIG -----------------------------
 
-ALPACA_KEY = os.getenv("ALPACA_API_KEY", "PKLVE5GW536LN2G4RGOKZGT35Y").strip()
-ALPACA_SECRET = os.getenv("ALPACA_SECRET_KEY", "9jZJc64o9va66tkokAgAfc5UquVRBwWZHwMPefdxnbru").strip()
+ALPACA_KEY = os.getenv("ALPACA_API_KEY", "").strip()
+ALPACA_SECRET = os.getenv("ALPACA_SECRET_KEY", "").strip()
 ALPACA_DATA_URL = "https://data.alpaca.markets"
 YAHOO_SYMBOLS = {"SPY": "SPY", "SPX": "^GSPC"}
 RISK_FREE_RATE = 0.04
